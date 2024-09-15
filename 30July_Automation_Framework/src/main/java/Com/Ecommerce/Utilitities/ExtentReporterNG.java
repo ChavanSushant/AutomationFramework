@@ -23,7 +23,7 @@ public class ExtentReporterNG {
 		
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
-		extent.setSystemInfo("QA Automation Engineer", "Ranjeet Kendre");
+		extent.setSystemInfo("QA Automation Engineer", "Sushant Chavan");
 		extent.setSystemInfo("Suite name", "Regression");
 
 		return extent;
